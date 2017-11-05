@@ -4,8 +4,13 @@
 
 (defpackage #:ab-spider
   (:use #:cl #:alexandria)
-  (:export #:crawl-url
-           #:crawl-string))
+  (:export #:spider
+           #:sqlite-spider
+
+           #:initialize
+           #:reset
+
+           #:crawl))
 
 
 

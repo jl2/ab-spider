@@ -13,7 +13,8 @@
                #:sqlite
                #:closure-html
                #:cxml
-               #:cxml-stp)
+               #:cxml-stp
+               #:puri)
   :serial t
   :components ((:file "package")
                (:file "ab-spider")))
